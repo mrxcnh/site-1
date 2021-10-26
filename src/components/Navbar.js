@@ -43,15 +43,15 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/services" className="nav-links" onClick={closeMobileMenu}>
-                Services
+              <Link to="/epics" className="nav-links" onClick={closeMobileMenu}>
+                Epics
               </Link>
             </li>
-            <li className="nav-item">
+            {/* <li className="nav-item">
               <Link to="/products" className="nav-links" onClick={closeMobileMenu}>
                 Products
               </Link>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link to="/sign-up" className="nav-links-mobile" onClick={closeMobileMenu}>
                 Sign Up

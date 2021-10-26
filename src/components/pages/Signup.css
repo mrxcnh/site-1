@@ -1,0 +1,51 @@
+body {
+    font-family: "Roboto";
+}
+.registration-form {
+    box-shadow: inset 0 0 0 1000px rgba(100, 94, 94, 0.2);
+}
+.signup-container {
+    display:flex;
+    flex-flow: column;
+    background-image: url('../../images/img-8.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+
+.registration-form h1 {
+    color: #d15116;
+    font-size: 50px;
+    margin: 8px;
+    text-shadow: 5px 2px 4px grey;
+}
+
+.registration-form header{
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.registration-form p {
+    margin: auto;
+    color: #baa50a;
+    font-size: 30px;
+    margin: 8px;
+    text-align: center;
+}
+
+.input-section {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.input-section input {
+    width: 80%;
+    height: 40px;
+    margin: 10px;
+    border-radius: 5px;
+    border-color: rgb(112, 112, 245);
+}
