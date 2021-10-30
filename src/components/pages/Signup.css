@@ -35,17 +35,52 @@ body {
     text-align: center;
 }
 
-.input-section {
+.form-container {
     align-items: center;
-    justify-content: center;
-    justify-items: center;
     text-align: center;
+    /* display: flex;
+    flex-flow: column; */
+}
+
+.input-section {
+    /* display: inline; */
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+    margin-bottom: 10px;
 }
 
 .input-section input {
-    width: 80%;
+    width: 60%;
     height: 40px;
     margin: 10px;
     border-radius: 5px;
     border-color: rgb(112, 112, 245);
+    text-indent: 10px;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+.input-section i {
+    position: absolute;
+    color:#242424;
+    font-size: 30px;
+    padding: 15px 0 15px 20px;
+    min-width: 40px;
+    margin-left: 5px;
+}
+
+button {
+    margin: auto;
+    color: #baa50a;
+    font-size: 20px;
+    margin: 8px;
+    padding:20px;
+    text-align: center;
+    background-color:#242424;
+}
+
+button:hover {
+    background-color:#fff
 }
