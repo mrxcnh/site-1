@@ -8,10 +8,10 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+        Tham gia nhận tin tức về các hành trình mới nhất để nhận các ưu đãi
         </p>
         <p className='footer-subscription-text'>
-          You can unsubscribe at any time.
+        Bạn có thể bỏ theo dõi bất cứ lúc nào.
         </p>
         <div className='input-areas'>
           <form>
@@ -19,9 +19,9 @@ function Footer() {
               className='footer-input'
               name='email'
               type='email'
-              placeholder='Your Email'
+              placeholder='Email của bạn'
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button buttonStyle='btn--outline'>Theo dõi</Button>
           </form>
         </div>
       </section>
